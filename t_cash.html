@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>에듀플레인의 맞춤형 첨삭지도</title>
+        <link rel="shortcut icon" type="image/png" href="img/pavicon.png">
+        <script src="https://kit.fontawesome.com/2025061295.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/teacher_style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    
+    <body>
+        <div class="teacher_account">
+            <!-- left header -->
+            <div class="header_left">
+                <a href="#none" class="logo"><img src="img/logo_w.svg"></a>
+                <a href="#none" class="btn_registration"><img src="img/problem_registration.svg"> 문제등록</a>
+                <ul>
+                    <!-- 해당메뉴 활성화 할 때 class명 active -->
+                    <li class="">
+                        <a href="#none">
+                            <img src="img/teacher_menu_active.svg"><h5>대시보드</h5>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#none">
+                            <img src="img/teacher_menu_active.svg"><h5>캐시관리</h5>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#none">
+                            <img src="img/teacher_menu_active.svg"><h5>첨삭요청</h5><span>7</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#none">
+                            <img src="img/teacher_menu_active.svg"><h5>첨삭내역</h5>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#none">
+                            <img src="img/teacher_menu_active.svg"><h5>문제은행</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- right contents area -->
+            <div class="container">
+                <div class="container_header">
+                    <div class="notice">
+                        <img src="img/notice_bell.svg">
+                        <h5>새로운 문제가 등록되었습니다. 첨삭 가능여부를 선택해주세요!</h5>
+                    </div>
+                    <div class="account_info">
+                        <div class="profile_thumbnail"><img src="img/teacher-01.png"></div>
+                        <h5>제임스 선생님</h5>
+                    </div>
+                </div>
+
+                <div class="contents_container">
+                    <h1 class="title">캐시관리</h1>
+                    <div class="cash_figure">
+                        <div>
+                            <h1>137,500</h1>
+                            <h5>누적 캐시</h5>
+                        </div>
+                        <div class="center">
+                            <h1>130,000</h1>
+                            <h5>환급 캐시</h5>
+                        </div>
+                        <div>
+                            <h1>7,500</h1>
+                            <h5>보유 캐시</h5>
+                        </div>
+                    </div>
+                    <div class="cash_out">
+                        <h5 class="notice"><i class="fas fa-exclamation-circle"></i> 환급은 10,000원 단위로 가능합니다.</h5>
+                        <a href="#none" class="cashout_btn"><img src="img/teacher_cash_icon_black.svg"> 캐시환급</a>
+                    </div>
+                    
+                    
+                    <div class="cash_list">
+                        <table>
+                            <tr>
+                                <td class="date">날짜</td>
+                                <td class="category">구분</td>
+                                <td class="contents">상세내용</td>
+                                <td class="cash">캐시</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                            <tr class="cashout">
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">환급</td>
+                                <td class="contents"></td>
+                                <td class="cash">- 20,000</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                            <tr class="cashout">
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">환급</td>
+                                <td class="contents"></td>
+                                <td class="cash">- 20,000</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                            <tr>
+                                <td class="date">2019. 10. 03</td>
+                                <td class="category">문제등록</td>
+                                <td class="contents">원미동 사람들</td>
+                                <td class="cash">+ 2,000</td>
+                            </tr>
+                        </table>
+                        
+                        <div class="pagenation">
+                            <span class="arrow"><i class="fas fa-chevron-left"></i></span>
+                            <h5 class="active">1</h5>
+                            <h5 class="">2</h5>
+                            <h5 class="">3</h5>
+                            <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

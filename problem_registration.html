@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>에듀플레인의 맞춤형 첨삭지도</title>
+        <link rel="shortcut icon" type="image/png" href="img/pavicon.png">
+        <script src="https://kit.fontawesome.com/2025061295.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/registration.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    
+    <body class="registration">
+        <div class="problem_registration_header">
+            <div class="inner">
+                <h1 class="book_title"><i class="fas fa-book"></i> 원미동 사람들</h1>
+                <div class="right_btn">
+                    <a href="#none" class="btn_common">임시저장</a>
+                    <a href="#none" class="btn_common btn_preview">미리보기</a>
+                    <a href="#none" class="btn_common btn_complete">문제 출제 완료</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap_bg"></div>
+        <div class="wrap">
+            <div class="tabs">
+                <div class="tab">
+                    <input type="radio" name="subject_tabs" id="tab-0" checked class="tab_switch">
+                    <label for="tab-0" class="tab_label tab_label_plus">주제 추가 <i class="fas fa-plus-circle"></i></label>
+                    <div class="tab_content">
+                        <div class="add_subject">
+                            <h1>추가할 주제를 선택해 주세요.</h1>
+                            
+                            <div class="wrapper">
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>주제와 교훈<p>
+                                </div>
+
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>이해력 증진<p>
+                                </div>
+
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>객관적 사실<p>
+                                </div>
+
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>판단력 증진<p>
+                                </div>
+
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>논술력 증진<p>
+                                </div>
+
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>사실적 독해<p>
+                                </div>
+                                <div class="field-wrap">
+                                    <div class="checkbox"></div>
+                                    <p>심화 문제</p><p>
+                                </div>
+                            </div>
+                            <button type="submit">생성</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="subject_tabs" id="tab-1" checked class="tab_switch">
+                    <label for="tab-1" class="tab_label">객관적 사실 (5)</label>
+                    <div class="tab_content">
+                        
+                        <div class="inner">
+                            <h1 class="subject_title">객관적 사실에 관한 문제</h1>
+                            <div class="problem_guide">
+                                <p>문제 출제 시 <span>문제+정답, 문제+지문+정답, 문제+지문+다중문답</span>으로 크게 3가지 타입의 유형으로 문제를 출제할 수 있습니다. 한 주제 당 <span>최소 3문제 이상 출제</span>해야 하고 '문제 출제 완료'버튼을 누르면 관리자가 <span>검토 후 승인</span>해드립니다.</p>
+                                <h3 class="guide_close"><i class="fas fa-times-circle"></i></h3>
+                            </div>
+                            <!-- 반복단위 : section + add_btn_area -->
+                            <div class="section">
+                                <div class="mini_btn">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                    <i class="fas fa-times-circle"></i>
+                                </div>
+                                <h3>문제 1</h3>
+                                <textarea rows="3" class="problem_form"></textarea>
+                                
+                                <!-- 지문 추가 버튼 클릭 시 -->
+                                <div class="text_form_area text_form_area_on">
+                                    <h3>지문</h3>
+                                    <textarea rows="10"></textarea>
+                                </div>
+                                
+                                <!-- 정답란 추가 버튼 클릭 시 -->
+                                <div class="answer_form_area answer_form_area_on">
+                                    <h3>정답란</h3>
+                                    <div class="radio_area">
+                                        <label for="genre-1" class="">
+                                            <input type="radio" id="genre-1" name="box1" checked>
+                                            <span>한줄</span>
+                                        </label>
+                                        <label for="genre-2" class="">
+                                            <input type="radio" id="genre-2" name="box1" >
+                                            <span>5줄 이상</span>
+                                        </label>
+                                        <label for="genre-3" class="">
+                                            <input type="radio" id="genre-3" name="box1">
+                                            <span>10줄 이상</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <!-- 상세 문제 추가 버튼 클릭 시 -->
+                                <div class="detail_problem_form_area detail_problem_form_area_on">
+                                    <div class="problem">
+                                        <h3>문제 1-1</h3>
+                                        <textarea rows="3" class="problem_form"></textarea>
+                                    </div>
+                                    <div class="answer">
+                                        <h3>정답란</h3>
+                                        <div class="radio_area">
+                                            <label for="genre-4" class="">
+                                                <input type="radio" id="genre-4" name="box2" checked>
+                                                <span>한줄</span>
+                                            </label>
+                                            <label for="genre-5" class="">
+                                                <input type="radio" id="genre-5" name="box2" >
+                                                <span>5줄 이상</span>
+                                            </label>
+                                            <label for="genre-6" class="">
+                                                <input type="radio" id="genre-6" name="box2">
+                                                <span>10줄 이상</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="btn_area">
+                                    <a href="#none" class="select_btn btn_answer">정답란 추가</a>
+                                    <a href="#none" class="select_btn btn_text">지문 추가</a>
+                                    <a href="#none" class="select_btn btn_detail_problem">상세 문제 추가</a>
+                                </div>
+                            </div>
+                            <div class="add_btn_area">
+                                <a href="#none" class="add_problem_btn"><i class="fas fa-plus-circle"></i> 문제 추가</a>
+                            </div>
+                            <div class="subject_save">
+                                <a href="#none" class="delete">주제 삭제하기</a>
+                                <a href="#none">주제 저장하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="subject_tabs" id="tab-2" class="tab_switch">
+                    <label for="tab-2" class="tab_label">주제와 교훈 (6)</label>
+                    <div class="tab_content">
+                        <div class="inner">
+                            <h1 class="subject_title">주제와 교훈에 관한 문제</h1>
+                            <div class="problem_guide">
+                                <p>문제 출제 시 <span>문제+정답, 문제+지문+정답, 문제+지문+다중문답</span>으로 크게 3가지 타입의 유형으로 문제를 출제할 수 있습니다. 한 주제 당 <span>최소 3문제 이상 출제</span>해야 하고 '문제 출제 완료'버튼을 누르면 관리자가 <span>검토 후 승인</span>해드립니다.</p>
+                                <h3 class="guide_close"><i class="fas fa-times-circle"></i></h3>
+                            </div>
+                            <!-- 반복단위 : section + add_btn_area -->
+                            <div class="section">
+                                <div class="mini_btn">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                    <i class="fas fa-times-circle"></i>
+                                </div>
+                                <h3>문제 1</h3>
+                                <textarea rows="3" class="problem_form"></textarea>
+                                
+                                <!-- 지문 추가 버튼 클릭 시 -->
+                                <div class="text_form_area text_form_area_on">
+                                    <h3>지문</h3>
+                                    <textarea rows="10"></textarea>
+                                </div>
+                                
+                                <!-- 정답란 추가 버튼 클릭 시 -->
+                                <div class="answer_form_area answer_form_area_on">
+                                    <h3>정답란</h3>
+                                    <div class="radio_area">
+                                        <label for="genre-1" class="">
+                                            <input type="radio" id="genre-1" name="box1" checked>
+                                            <span>한줄</span>
+                                        </label>
+                                        <label for="genre-2" class="">
+                                            <input type="radio" id="genre-2" name="box1" >
+                                            <span>5줄 이상</span>
+                                        </label>
+                                        <label for="genre-3" class="">
+                                            <input type="radio" id="genre-3" name="box1">
+                                            <span>10줄 이상</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <!-- 상세 문제 추가 버튼 클릭 시 -->
+                                <div class="detail_problem_form_area detail_problem_form_area_on">
+                                    <div class="problem">
+                                        <h3>문제 1-1</h3>
+                                        <textarea rows="3" class="problem_form"></textarea>
+                                    </div>
+                                    <div class="answer">
+                                        <h3>정답란</h3>
+                                        <div class="radio_area">
+                                            <label for="genre-4" class="">
+                                                <input type="radio" id="genre-4" name="box2" checked>
+                                                <span>한줄</span>
+                                            </label>
+                                            <label for="genre-5" class="">
+                                                <input type="radio" id="genre-5" name="box2" >
+                                                <span>5줄 이상</span>
+                                            </label>
+                                            <label for="genre-6" class="">
+                                                <input type="radio" id="genre-6" name="box2">
+                                                <span>10줄 이상</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="btn_area">
+                                    <a href="#none" class="select_btn btn_answer">정답란 추가</a>
+                                    <a href="#none" class="select_btn btn_text">지문 추가</a>
+                                    <a href="#none" class="select_btn btn_detail_problem">상세 문제 추가</a>
+                                </div>
+                            </div>
+                            <div class="add_btn_area">
+                                <a href="#none" class="add_problem_btn"><i class="fas fa-plus-circle"></i> 문제 추가</a>
+                            </div>
+                            <div class="subject_save">
+                                <a href="#none" class="delete">주제 삭제하기</a>
+                                <a href="#none">주제 저장하기</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="subject_tabs" id="tab-3" class="tab_switch">
+                    <label for="tab-3" class="tab_label">이해력 증진 (4)</label>
+                    <div class="tab_content">
+                        <div class="inner">
+                            <h1 class="subject_title">이해력 증진에 관한 문제</h1>
+                            <div class="problem_guide">
+                                <p>문제 출제 시 <span>문제+정답, 문제+지문+정답, 문제+지문+다중문답</span>으로 크게 3가지 타입의 유형으로 문제를 출제할 수 있습니다. 한 주제 당 <span>최소 3문제 이상 출제</span>해야 하고 '문제 출제 완료'버튼을 누르면 관리자가 <span>검토 후 승인</span>해드립니다.</p>
+                                <h3 class="guide_close"><i class="fas fa-times-circle"></i></h3>
+                            </div>
+                            <!-- 반복단위 : section + add_btn_area -->
+                            <div class="section">
+                                <div class="mini_btn">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                    <i class="fas fa-times-circle"></i>
+                                </div>
+                                <h3>문제 1</h3>
+                                <textarea rows="3" class="problem_form"></textarea>
+                                
+                                <!-- 지문 추가 버튼 클릭 시 -->
+                                <div class="text_form_area text_form_area_on">
+                                    <h3>지문</h3>
+                                    <textarea rows="10"></textarea>
+                                </div>
+                                
+                                <!-- 정답란 추가 버튼 클릭 시 -->
+                                <div class="answer_form_area answer_form_area_on">
+                                    <h3>정답란</h3>
+                                    <div class="radio_area">
+                                        <label for="genre-1" class="">
+                                            <input type="radio" id="genre-1" name="box1" checked>
+                                            <span>한줄</span>
+                                        </label>
+                                        <label for="genre-2" class="">
+                                            <input type="radio" id="genre-2" name="box1" >
+                                            <span>5줄 이상</span>
+                                        </label>
+                                        <label for="genre-3" class="">
+                                            <input type="radio" id="genre-3" name="box1">
+                                            <span>10줄 이상</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <!-- 상세 문제 추가 버튼 클릭 시 -->
+                                <div class="detail_problem_form_area detail_problem_form_area_on">
+                                    <div class="problem">
+                                        <h3>문제 1-1</h3>
+                                        <textarea rows="3" class="problem_form"></textarea>
+                                    </div>
+                                    <div class="answer">
+                                        <h3>정답란</h3>
+                                        <div class="radio_area">
+                                            <label for="genre-4" class="">
+                                                <input type="radio" id="genre-4" name="box2" checked>
+                                                <span>한줄</span>
+                                            </label>
+                                            <label for="genre-5" class="">
+                                                <input type="radio" id="genre-5" name="box2" >
+                                                <span>5줄 이상</span>
+                                            </label>
+                                            <label for="genre-6" class="">
+                                                <input type="radio" id="genre-6" name="box2">
+                                                <span>10줄 이상</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="btn_area">
+                                    <a href="#none" class="select_btn btn_answer">정답란 추가</a>
+                                    <a href="#none" class="select_btn btn_text">지문 추가</a>
+                                    <a href="#none" class="select_btn btn_detail_problem">상세 문제 추가</a>
+                                </div>
+                            </div>
+                            <div class="add_btn_area">
+                                <a href="#none" class="add_problem_btn"><i class="fas fa-plus-circle"></i> 문제 추가</a>
+                            </div>
+                            <div class="subject_save">
+                                <a href="#none" class="delete">주제 삭제하기</a>
+                                <a href="#none">주제 저장하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script>
+            $('.field-wrap').click(function(){
+                $(this).children('.checkbox').toggleClass('checked');
+            });
+            
+            $(function(){
+                $('.btn_answer').click(function(){
+                    $('.answer_form_area_on').show();
+                });
+                $('.btn_text').click(function(){
+                    $('.text_form_area_on').show();
+                });
+                $('.btn_detail_problem').click(function(){
+                    $('.detail_problem_form_area_on').show();
+                });
+                 $('.guide_close').click(function(){
+                    $('.problem_guide').hide();
+                });
+            });
+        </script>
+        
+        
+        
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

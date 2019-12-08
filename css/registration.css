@@ -1,0 +1,718 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
+/* line 9, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+body.registration {
+  background-color: #f1f1f1; }
+
+/* line 13, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+.registration_container {
+  width: 930px;
+  margin: 0 auto 100px;
+  padding-top: 80px; }
+  /* line 17, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+  .registration_container h1.page_title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0 0 30px; }
+  /* line 23, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+  .registration_container .section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px 0; }
+    /* line 29, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .registration_container .section .input_area {
+      padding: 12px; }
+      /* line 31, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area h3.title {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #222;
+        width: 130px; }
+      /* line 38, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area input {
+        display: inline-block;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 1rem;
+        color: #222;
+        width: 80%;
+        outline: 0;
+        transition: all 0.2s; }
+        /* line 49, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area input:hover {
+          border-color: #aaa;
+          background-color: #f3f3f3; }
+        /* line 53, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area input:focus {
+          border-color: #aaa; }
+      /* line 57, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area input::-webkit-input-placeholder {
+        color: #bbb; }
+      /* line 60, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area input::-ms-input-placeholder {
+        color: #bbb; }
+      /* line 63, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area input::input-placeholder {
+        color: #bbb; }
+      /* line 66, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area textarea {
+        display: inline-block;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 1rem;
+        line-height: 23px;
+        color: #222;
+        width: 80%;
+        outline: 0;
+        transition: all 0.2s;
+        vertical-align: middle; }
+        /* line 79, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area textarea:hover {
+          border-color: #aaa;
+          background-color: #f3f3f3; }
+        /* line 83, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area textarea:focus {
+          border-color: #aaa; }
+      /* line 87, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area .radio_area {
+        display: inline-block; }
+        /* line 89, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area .radio_area label {
+          margin-right: 20px; }
+        /* line 92, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area .radio_area input {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 2px solid #ddd;
+          outline: 0;
+          vertical-align: middle;
+          margin-right: 5px;
+          padding: 0;
+          display: inline-block; }
+        /* line 106, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area .radio_area input:checked {
+          border: 6px solid #7d57fb; }
+        /* line 110, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area .radio_area input:checked + label {
+          color: red; }
+        /* line 113, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .input_area .radio_area span {
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 1rem;
+          color: #222; }
+      /* line 120, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .input_area .info {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #777;
+        padding: 10px 0 0 140px; }
+    /* line 128, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .registration_container .section .upload_area {
+      width: 80%;
+      width: 200px;
+      padding: 10px 15px;
+      border: 1px dashed #ccc;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 5px;
+      transition: all 0.2s; }
+      /* line 138, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .upload_area .file_upload .image_box {
+        margin: 0 auto;
+        height: 250px;
+        width: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        text-align: center; }
+        /* line 145, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .upload_area .file_upload .image_box img {
+          height: 100%;
+          display: none; }
+        /* line 149, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .upload_area .file_upload .image_box p {
+          line-height: 250px;
+          color: #999;
+          margin: 0;
+          font-size: 0.8rem; }
+      /* line 158, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .registration_container .section .upload_area:hover {
+        border-color: #7d57fb;
+        border-color: #aaa;
+        background-color: #f3f3f3; }
+        /* line 164, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .registration_container .section .upload_area:hover .file_upload .image_box p {
+          color: #222; }
+  /* line 172, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+  .registration_container .btn_area {
+    text-align: center;
+    padding: 30px 0; }
+    /* line 175, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .registration_container .btn_area .btn_common {
+      font-size: 1rem;
+      padding: 20px 0;
+      border: 1px solid #222;
+      text-decoration: none;
+      color: #222;
+      width: 200px;
+      display: inline-block;
+      margin: 0 10px; }
+    /* line 185, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .registration_container .btn_area .btn_cancel {
+      color: red;
+      border-color: red; }
+    /* line 189, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .registration_container .btn_area .btn_save {
+      background-color: #222;
+      color: #fff; }
+
+/* line 199, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+.problem_registration_header {
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+  /* line 209, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+  .problem_registration_header .inner {
+    padding: 0 3%; }
+    /* line 212, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .problem_registration_header .inner h1.book_title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      display: inline-block;
+      vertical-align: top; }
+      /* line 217, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .problem_registration_header .inner h1.book_title .fas {
+        margin-right: 5px; }
+    /* line 221, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .problem_registration_header .inner .right_btn {
+      display: inline-block;
+      position: absolute;
+      right: 3%; }
+      /* line 225, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .problem_registration_header .inner .right_btn a {
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #111;
+        color: #111;
+        font-size: 1rem;
+        padding: 0 20px;
+        margin: 0 6px;
+        height: 50px;
+        line-height: 50px;
+        transition: all 0.2s; }
+        /* line 236, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .problem_registration_header .inner .right_btn a:hover {
+          background-color: #111;
+          color: #fff; }
+      /* line 241, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .problem_registration_header .inner .right_btn a.btn_preview {
+        color: #7d57fb;
+        border-color: #7d57fb; }
+        /* line 244, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .problem_registration_header .inner .right_btn a.btn_preview:hover {
+          color: #fff;
+          border-color: #7d57fb;
+          background-color: #7d57fb; }
+      /* line 250, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .problem_registration_header .inner .right_btn a.btn_complete {
+        color: #fff;
+        border-color: #7d57fb;
+        background-color: #7d57fb; }
+        /* line 254, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .problem_registration_header .inner .right_btn a.btn_complete:hover {
+          background-color: #7d57fb; }
+
+/*------ 문제 등록 페이지 -------*/
+/* line 263, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+.wrap_bg {
+  background-color: #fff;
+  height: 75px;
+  z-index: -1;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0; }
+
+/* line 273, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+.wrap {
+  background-color: #fff;
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  margin: 80px auto 0;
+  padding-top: 20px; }
+
+/* line 281, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+.tabs {
+  background-color: #fff;
+  position: relative;
+  display: flex; }
+  /* line 285, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+  .tabs .tab {
+    float: left; }
+    /* line 288, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_switch {
+      display: none; }
+    /* line 291, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_label {
+      position: relative;
+      display: block;
+      cursor: pointer;
+      font-size: 1rem;
+      color: #666;
+      padding: 18px 25px;
+      border-bottom: 3px solid #fff;
+      transition: all 0.3s; }
+      /* line 300, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .tabs .tab .tab_label:hover {
+        border-bottom: 3px solid #111;
+        color: #222; }
+    /* line 305, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_label_plus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #111;
+      font-weight: 600; }
+    /* line 311, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_content {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      opacity: 0;
+      transition: all 0.35s; }
+      /* line 318, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .tabs .tab .tab_content .problem_guide {
+        border: 1px dashed #ccc;
+        border-radius: 5px;
+        padding: 15px 25px;
+        margin: 0 0 55px; }
+        /* line 324, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .problem_guide p {
+          font-size: 0.9rem;
+          font-weight: 400;
+          line-height: 20px;
+          color: #777;
+          display: inline-block;
+          width: 96%;
+          vertical-align: middle; }
+          /* line 332, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .problem_guide p span {
+            color: #111;
+            font-weight: 600; }
+        /* line 337, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .problem_guide h3 {
+          display: inline-block;
+          vertical-align: middle;
+          text-align: right;
+          width: 3%; }
+          /* line 342, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .problem_guide h3 .fas {
+            cursor: pointer;
+            transition: all 0.2s; }
+            /* line 345, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .problem_guide h3 .fas:hover {
+              color: #7d57fb; }
+      /* line 351, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .tabs .tab .tab_content .inner {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: inline-block; }
+        /* line 357, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .inner h1.subject_title {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: 700;
+          margin: 0 0 50px; }
+        /* line 363, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .inner .section {
+          background-color: #fff;
+          padding: 30px;
+          position: relative;
+          border-radius: 5px; }
+          /* line 368, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .mini_btn {
+            position: absolute;
+            right: 5px;
+            top: -25px;
+            cursor: pointer;
+            transition: all 0.2s; }
+            /* line 374, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .mini_btn .fas {
+              color: #aaa;
+              font-size: 1.1rem;
+              margin-left: 7px;
+              vertical-align: middle; }
+              /* line 379, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .mini_btn .fas:hover {
+                color: #111; }
+          /* line 384, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #111;
+            display: inline-block;
+            width: 100px;
+            vertical-align: top;
+            padding-top: 10px; }
+          /* line 393, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section textarea.problem_form {
+            width: 85%;
+            display: inline-block;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            font-size: 1rem;
+            line-height: 24px;
+            outline: 0;
+            transition: all 0.2s; }
+            /* line 403, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section textarea.problem_form:hover {
+              border-color: #aaa; }
+            /* line 406, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section textarea.problem_form:focus {
+              border-color: #aaa; }
+          /* line 410, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .answer_form_area_on {
+            display: block; }
+          /* line 413, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .answer_form_area {
+            display: none;
+            transiton: all 0.2s;
+            padding: 30px 0 10px; }
+            /* line 418, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .answer_form_area h3 {
+              font-size: 1rem;
+              font-weight: 600;
+              color: #111;
+              display: inline-block;
+              width: 100px;
+              padding: 0;
+              vertical-align: middle; }
+            /* line 427, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .answer_form_area .radio_area {
+              display: inline-block;
+              vertical-align: middle; }
+              /* line 430, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .answer_form_area .radio_area label {
+                margin-right: 20px; }
+              /* line 433, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .answer_form_area .radio_area input {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid #ddd;
+                outline: 0;
+                vertical-align: middle;
+                margin-right: 5px;
+                padding: 0;
+                display: inline-block;
+                transition: all 0.2s; }
+              /* line 448, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .answer_form_area .radio_area input:checked {
+                border: 6px solid #7d57fb; }
+              /* line 451, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .answer_form_area .radio_area input:checked + label {
+                color: red; }
+              /* line 454, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .answer_form_area .radio_area span {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 1rem;
+                color: #222; }
+          /* line 462, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .text_form_area_on {
+            display: block; }
+          /* line 465, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .text_form_area {
+            transiton: all 0.2s;
+            padding: 30px 0 10px;
+            display: none; }
+            /* line 470, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .text_form_area h3 {
+              font-size: 1rem;
+              font-weight: 600;
+              color: #111;
+              display: inline-block;
+              width: 100px;
+              vertical-align: top;
+              padding-top: 10px; }
+            /* line 479, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .text_form_area textarea {
+              width: 85%;
+              display: inline-block;
+              border-radius: 5px;
+              border: 1px solid #ddd;
+              padding: 10px 15px;
+              font-size: 1rem;
+              line-height: 24px;
+              outline: 0;
+              transition: all 0.2s; }
+              /* line 489, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .text_form_area textarea:hover {
+                border-color: #aaa; }
+              /* line 492, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .text_form_area textarea:focus {
+                border-color: #aaa; }
+          /* line 497, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .detail_problem_form_area_on {
+            display: block; }
+          /* line 500, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .detail_problem_form_area {
+            display: none; }
+            /* line 502, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .detail_problem_form_area .problem {
+              padding: 15px 0; }
+              /* line 504, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .detail_problem_form_area .problem h3 {
+                font-size: 1rem;
+                font-weight: 600;
+                color: #111;
+                display: inline-block;
+                width: 100px;
+                vertical-align: top;
+                padding-top: 10px; }
+              /* line 513, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .detail_problem_form_area .problem textarea.problem_form {
+                width: 85%;
+                display: inline-block;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                padding: 10px 15px;
+                font-size: 1rem;
+                line-height: 24px;
+                outline: 0;
+                transition: all 0.2s; }
+                /* line 523, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .problem textarea.problem_form:hover {
+                  border-color: #aaa; }
+                /* line 526, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .problem textarea.problem_form:focus {
+                  border-color: #aaa; }
+            /* line 531, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer {
+              padding: 20px 0; }
+              /* line 533, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer h3 {
+                font-size: 1rem;
+                font-weight: 600;
+                color: #111;
+                display: inline-block;
+                width: 100px;
+                padding: 0;
+                vertical-align: middle; }
+              /* line 542, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area {
+                display: inline-block;
+                vertical-align: middle; }
+                /* line 545, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area label {
+                  margin-right: 20px; }
+                /* line 548, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area input {
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  appearance: none;
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  border: 2px solid #ddd;
+                  outline: 0;
+                  vertical-align: middle;
+                  margin-right: 5px;
+                  padding: 0;
+                  display: inline-block;
+                  transition: all 0.2s; }
+                /* line 563, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area input:checked {
+                  border: 6px solid #7d57fb; }
+                /* line 566, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area input:checked + label {
+                  color: red; }
+                /* line 569, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+                .tabs .tab .tab_content .inner .section .detail_problem_form_area .answer .radio_area span {
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-size: 1rem;
+                  color: #222; }
+          /* line 578, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .section .btn_area {
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding-top: 30px; }
+            /* line 583, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .section .btn_area a.select_btn {
+              text-decoration: none;
+              display: inline-block;
+              margin: 0 10px;
+              color: #aaa;
+              transiiton: all 0.2s;
+              border-radius: 5px;
+              height: 35px;
+              line-height: 35px;
+              width: 145px;
+              font-size: 0.9rem;
+              text-align: center;
+              border: 1px solid #ddd;
+              transition: all 0.2s; }
+              /* line 597, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+              .tabs .tab .tab_content .inner .section .btn_area a.select_btn:hover {
+                color: #222;
+                border-color: #222; }
+        /* line 605, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .inner .add_btn_area {
+          text-align: right;
+          padding: 18px 0 70px; }
+          /* line 608, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .add_btn_area a.add_problem_btn {
+            text-decoration: none;
+            color: #fff;
+            background-color: #111;
+            text-align: center;
+            padding: 15px 25px;
+            display: inline-block;
+            font-size: 1rem;
+            font-weight: 400;
+            border-radius: 5px; }
+            /* line 618, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .inner .add_btn_area a.add_problem_btn .fas {
+              margin-right: 5px; }
+        /* line 624, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .inner .subject_save {
+          text-align: center;
+          margin-bottom: 80px; }
+          /* line 627, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .subject_save a {
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            color: #fff;
+            background-color: #7d57fb;
+            border: 1px solid #7d57fb;
+            background-color: #111;
+            border-color: #111;
+            padding: 20px 50px;
+            margin: 20px 10px;
+            font-size: 1rem; }
+          /* line 640, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .inner .subject_save a.delete {
+            border: 1px solid red;
+            color: red;
+            background-color: transparent; }
+      /* line 648, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+      .tabs .tab .tab_content .add_subject {
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 50px 0;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        left: 200px; }
+        /* line 657, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject h1 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: 600;
+          padding: 30px 0; }
+        /* line 664, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject .wrapper {
+          background-color: white;
+          width: 500px;
+          margin: 0 auto;
+          padding: 25px 40px; }
+        /* line 670, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject .field-wrap {
+          overflow: hidden;
+          cursor: pointer;
+          padding: 20px;
+          border-bottom: 1px solid #ddd; }
+          /* line 675, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .add_subject .field-wrap p {
+            float: left;
+            margin-left: 15px;
+            line-height: 20px;
+            transition-duration: 0.15s;
+            font-size: 1.15rem;
+            color: #111; }
+        /* line 685, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject .field-wrap:nth-child(1) {
+          border-top: 1px solid #ddd; }
+        /* line 689, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject .checkbox {
+          float: left;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 1px solid #ccc;
+          border-radius: 15px;
+          transition-duration: 0.15s;
+          position: relative;
+          cursor: pointer; }
+          /* line 700, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .add_subject .checkbox:before {
+            content: "";
+            position: absolute;
+            transform: translateX(-50%) translateY(-50%);
+            border-radius: 50%;
+            width: 0;
+            height: 0;
+            top: 50%;
+            left: 50%;
+            background-color: #7d57fb;
+            transition-duration: 0.15s;
+            transition-timing-function: ease-out; }
+          /* line 714, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .add_subject .checkbox.checked {
+            border-color: #7d57fb; }
+            /* line 717, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+            .tabs .tab .tab_content .add_subject .checkbox.checked:before {
+              width: 10px;
+              height: 10px; }
+        /* line 723, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+        .tabs .tab .tab_content .add_subject button {
+          display: inline-block;
+          margin: 15px auto;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #fff;
+          background-color: #222;
+          border-radius: 5px;
+          padding: 15px 50px;
+          outline: 0;
+          cursor: pointer;
+          transition: all 0.2s; }
+          /* line 735, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+          .tabs .tab .tab_content .add_subject button:hover {
+            background-color: #000; }
+    /* line 741, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_switch:checked + .tab_label {
+      background: #fff;
+      color: #111;
+      z-index: 1;
+      border-bottom: 3px solid #111; }
+    /* line 747, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/registration.scss */
+    .tabs .tab .tab_switch:checked + label + .tab_content {
+      z-index: 2;
+      opacity: 1; }
+
+/*# sourceMappingURL=registration.css.map */

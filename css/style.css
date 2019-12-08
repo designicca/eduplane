@@ -1,0 +1,865 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
+/* 고등학생 컬러 보류 - 초등학생 컬러로 통일 고려 중 */
+/* line 14, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+header {
+  background-color: #f1f1f1;
+  height: 80px;
+  line-height: 80px;
+  text-align: center; }
+  /* line 21, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  header a.logo {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin-left: 4%; }
+    /* line 27, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header a.logo img {
+      vertical-align: middle; }
+  /* line 32, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  header nav {
+    display: inline-block; }
+    /* line 35, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header nav ul li {
+      text-align: center;
+      float: left;
+      color: #fff;
+      margin: 0 20px;
+      border-bottom: 4px solid transparent;
+      transition: all 0.5s; }
+      /* line 42, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      header nav ul li a {
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: none;
+        color: #fff; }
+    /* line 49, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header nav ul li.active {
+      line-height: 76px;
+      border-bottom: 4px solid #fff; }
+      /* line 52, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      header nav ul li.active a {
+        font-weight: bold; }
+    /* line 56, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header nav ul li:hover {
+      line-height: 76px;
+      border-bottom: 4px solid #fff; }
+      /* line 59, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      header nav ul li:hover a {
+        font-weight: bold; }
+  /* line 65, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  header .account {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    float: right;
+    margin-right: 4%; }
+    /* line 71, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header .account img {
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 15px; }
+    /* line 76, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    header .account h3 {
+      display: inline-block; }
+
+/* line 84, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+header.index_header {
+  background-color: #141f61; }
+
+/* line 87, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+header.elementary {
+  background-color: #7d57fb; }
+
+/* line 90, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+header.middle {
+  background-color: #46d39a; }
+
+/* line 93, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+header.high {
+  background-color: #7d57fb; }
+
+/*------- index --------*/
+/* line 103, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.banner {
+  background-color: #23147c;
+  background-image: url(../img/main_banner_BG.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px; }
+  /* line 110, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .banner .inner {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center; }
+    /* line 114, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .banner .inner img.main_infographic {
+      width: 500px;
+      margin-top: 75px; }
+    /* line 118, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .banner .inner h1.slogan {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 300;
+      padding: 40px 0; }
+      /* line 123, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner h1.slogan span {
+        font-weight: 700; }
+    /* line 127, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .banner .inner .index_search_area {
+      display: flex;
+      width: 850px;
+      height: 60px;
+      line-height: 60px;
+      background-color: #fff;
+      margin: 0 auto;
+      padding: 0;
+      border-radius: 10px;
+      text-align: left; }
+      /* line 137, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .index_search_area .search_icon {
+        padding: 0 20px;
+        vertical-align: middle; }
+      /* line 141, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .index_search_area input {
+        width: 88%;
+        height: 60px;
+        line-height: 60px;
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: 0;
+        font-size: 1.05rem; }
+      /* line 152, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .index_search_area input::-webkit-input-placeholder {
+        color: #aaa; }
+      /* line 155, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .index_search_area input::-ms-input-placeholder {
+        color: #aaa; }
+    /* line 159, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .banner .inner .hashtag {
+      padding: 22px 0; }
+      /* line 161, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .hashtag h5 {
+        color: #fff;
+        font-size: 0.9rem;
+        display: inline-block;
+        margin-right: 10px; }
+      /* line 167, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .banner .inner .hashtag a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.7);
+        margin: 0 2px; }
+
+/* line 180, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.index_common .inner {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center; }
+  /* line 184, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .index_common .inner h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    margin: 70px 0 20px; }
+  /* line 191, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .index_common .inner h3.subtitle {
+    font-size: 18px;
+    margin-bottom: 35px; }
+
+/* line 202, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.recommended_reading .inner a {
+  text-decoration: none;
+  display: inline-block; }
+  /* line 205, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .recommended_reading .inner a .card {
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px 50px;
+    vertical-align: top;
+    transition: all 0.3s ease; }
+    /* line 211, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .recommended_reading .inner a .card .thumbnail {
+      width: 195px;
+      height: 275px;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      transition: all 0.3s ease; }
+      /* line 218, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .recommended_reading .inner a .card .thumbnail img {
+        width: 103%; }
+    /* line 222, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .recommended_reading .inner a .card .book_title {
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 17px 0 0;
+      color: #222;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 195px; }
+    /* line 233, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .recommended_reading .inner a .card .book_info {
+      font-size: 0.9rem;
+      color: #666;
+      padding: 10px 0 15px; }
+    /* line 239, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .recommended_reading .inner a .card .tag img {
+      margin: 0 3px;
+      border-radius: 3px;
+      overflow: hidden; }
+
+/* line 249, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.recommended_reading .inner a:hover .card .thumbnail {
+  margin-top: -5px; }
+
+/* line 259, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.index_teacher_area {
+  display: flex; }
+  /* line 262, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .index_teacher_area .teacher_card {
+    display: inline-block;
+    width: 33%;
+    border-radius: 40px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 24px 0;
+    text-align: center;
+    padding: 60px 0; }
+    /* line 270, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .index_teacher_area .teacher_card .profile {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: inline-block;
+      margin-bottom: 20px; }
+      /* line 277, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .index_teacher_area .teacher_card .profile img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0); }
+    /* line 284, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .index_teacher_area .teacher_card .name {
+      font-size: 20px;
+      font-weight: 700;
+      color: #222;
+      margin: 10px 0; }
+    /* line 290, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .index_teacher_area .teacher_card .company {
+      font-size: 14px;
+      color: #636363; }
+
+/* line 298, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.teacher_more {
+  display: inline-block;
+  color: #fff;
+  background-color: #111;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 15px 38px;
+  border-radius: 33px;
+  margin: 50px 0; }
+
+/* line 312, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.book_portfolio .inner img.thumbnail {
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 40px; }
+
+/* line 321, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.bottom_banner {
+  position: relative;
+  width: 1050px;
+  margin: 200px auto 100px;
+  padding: 50px 0;
+  border-radius: 40px;
+  background-color: #7d57fb; }
+  /* line 328, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .bottom_banner h1 {
+    color: #fff;
+    display: inline-block;
+    padding: 0 0 0 60px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px; }
+    /* line 335, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .bottom_banner h1 span {
+      font-weight: 600; }
+  /* line 339, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .bottom_banner a.start {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    position: absolute;
+    transform: translate3d(0, -50%, 0);
+    top: 50%;
+    right: 60px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 27px; }
+
+/* line 369, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.genre {
+  width: 100%;
+  background-color: #2a3647;
+  padding: 35px 0; }
+  /* line 373, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .genre .inner {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center; }
+    /* line 377, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .genre .inner .genre_item {
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      font-size: 15px;
+      margin: 0 12px;
+      cursor: pointer; }
+      /* line 384, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .genre .inner .genre_item span {
+        display: block;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 3px solid transparent;
+        margin-bottom: 15px;
+        transition: all 0.3s; }
+      /* line 395, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .genre .inner .genre_item:hover span {
+        background-color: rgba(255, 255, 255, 0.2); }
+    /* line 401, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .genre .inner .active span {
+      background-color: rgba(255, 255, 255, 0); }
+    /* line 406, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .genre .inner .elementary_active {
+      color: #7d57fb; }
+      /* line 408, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .genre .inner .elementary_active span {
+        border: 3px solid #7d57fb; }
+    /* line 413, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .genre .inner .middle_active {
+      color: #46d39a; }
+      /* line 415, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .genre .inner .middle_active span {
+        border: 3px solid #46d39a; }
+    /* line 420, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .genre .inner .high_active {
+      color: #7d57fb; }
+      /* line 422, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .genre .inner .high_active span {
+        border: 3px solid #7d57fb; }
+
+/* line 431, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.best {
+  width: 100%;
+  background-color: #232e3d;
+  text-align: center;
+  padding: 40px 0 60px; }
+  /* line 437, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .best h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 20px 0 45px; }
+  /* line 443, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .best a.card_link {
+    text-decoration: none;
+    display: inline-block; }
+    /* line 447, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .best a.card_link .card {
+      display: flex;
+      position: relative;
+      top: 0;
+      width: 400px;
+      height: 255px;
+      margin: 0 10px;
+      padding: 25px;
+      background-color: #1c2431;
+      border-radius: 10px;
+      text-align: left;
+      vertical-align: top;
+      transition: all 0.3s ease; }
+      /* line 461, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .best a.card_link .card .top_tag {
+        position: absolute;
+        top: -2px;
+        right: 20px; }
+      /* line 467, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .best a.card_link .card .thumbnail {
+        width: 173px;
+        height: 255px;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 5px;
+        overflow: hidden; }
+        /* line 474, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .best a.card_link .card .thumbnail img {
+          height: 100%; }
+      /* line 478, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .best a.card_link .card .info {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        width: 210px;
+        padding-left: 10px; }
+        /* line 484, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .best a.card_link .card .info .title {
+          color: #fff;
+          margin-top: 45px;
+          padding-left: 10px;
+          font-size: 1.2rem;
+          line-height: 23px;
+          margin-bottom: 12px; }
+        /* line 493, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .best a.card_link .card .info .author {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 14px;
+          padding-left: 10px;
+          line-height: 20px; }
+        /* line 499, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .best a.card_link .card .info .teacher {
+          background-color: #fff;
+          border-radius: 30px;
+          padding: 5px 17px 5px 6px;
+          display: inline-block;
+          position: absolute;
+          bottom: 20px;
+          left: 20px; }
+          /* line 507, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .best a.card_link .card .info .teacher .teacher_thumbnail {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            border-radius: 50%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-right: 5px; }
+            /* line 516, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+            .best a.card_link .card .info .teacher .teacher_thumbnail img {
+              width: 35px;
+              position: relative;
+              top: 50%;
+              left: 50%;
+              transform: translate3d(-50%, -50%, 0); }
+          /* line 524, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .best a.card_link .card .info .teacher h3 {
+            display: inline-block;
+            color: #232e3d;
+            vertical-align: middle;
+            font-size: 0.9rem;
+            font-weight: bold; }
+  /* line 536, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .best a.card_link:hover .card {
+    position: relative;
+    top: -10px;
+    transition: all 0.3s ease; }
+
+/* line 549, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.category {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+  /* line 552, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .category .inner {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex; }
+    /* line 556, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .category .inner a {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      width: 20%;
+      padding: 20px 0;
+      text-align: center;
+      color: #555;
+      transition: all 0.1s ease-in; }
+    /* line 566, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .category .inner a.active {
+      border-bottom: 2px solid #232e3d;
+      color: #111; }
+    /* line 570, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .category .inner a:hover {
+      border-bottom: 2px solid #232e3d;
+      color: #111; }
+
+/* line 582, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.search_area {
+  width: 1000px;
+  height: 60px;
+  margin: 40px auto;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; }
+  /* line 588, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .search_area img {
+    vertical-align: middle;
+    margin: 0 10px 0 30px; }
+  /* line 592, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .search_area input {
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    margin: 0;
+    outline: 0;
+    font-size: 0.9rem;
+    width: 90%;
+    vertical-align: middle;
+    font-size: 1rem; }
+
+/* line 613, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.category_filter {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: right; }
+  /* line 617, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .category_filter a {
+    text-decoration: none;
+    display: inline-block;
+    color: #999;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    vertical-align: middle; }
+  /* line 625, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .category_filter a.active {
+    color: #111;
+    font-weight: 600; }
+  /* line 629, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .category_filter a:hover {
+    color: #111;
+    font-weight: 600; }
+  /* line 633, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .category_filter span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 0.6rem;
+    vertical-align: middle;
+    color: #ddd; }
+
+/* line 644, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.list_container {
+  width: 1000px;
+  margin: 20px auto 200px;
+  border-top: 1px solid #ddd; }
+  /* line 648, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .list_container .list {
+    border-bottom: 1px solid #ddd;
+    padding: 22px;
+    transition: background 0.5s; }
+    /* line 652, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .list_container .list .thumbnail {
+      width: 110px;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 5px;
+      overflow: hidden; }
+      /* line 658, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .thumbnail img {
+        width: 100%; }
+    /* line 663, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .list_container .list .info {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 0 0 30px;
+      width: 670px; }
+      /* line 669, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .info .book_title {
+        font-size: 1.3rem;
+        padding: 0 0 12px;
+        font-weight: 700; }
+        /* line 673, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .info .book_title a {
+          text-decoration: none;
+          color: #222;
+          transition: color 0.2s; }
+          /* line 677, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .list_container .list .info .book_title a:hover {
+            color: #666; }
+      /* line 682, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .info .book_info {
+        font-size: 15px;
+        font-weight: 400;
+        color: #636363; }
+      /* line 687, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .info .item {
+        font-size: 14px;
+        font-weight: 400;
+        color: #636363;
+        padding: 23px 0 0; }
+      /* line 693, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .info .teacher {
+        margin-top: 12px; }
+        /* line 695, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .info .teacher .teacher_thumbnail {
+          display: inline-block;
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          overflow: hidden;
+          vertical-align: middle; }
+          /* line 702, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .list_container .list .info .teacher .teacher_thumbnail img {
+            height: 35px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0); }
+        /* line 710, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .info .teacher h3 {
+          display: inline-block;
+          font-size: 13px;
+          color: #333;
+          vertical-align: middle;
+          margin-left: 4px; }
+    /* line 721, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .list_container .list .button_area {
+      display: inline-block;
+      vertical-align: middle; }
+      /* line 725, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a {
+        text-decoration: none;
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 10px 0;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 30px;
+        text-align: center;
+        transition: all 0.2s; }
+      /* line 738, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.book_mark {
+        color: #aaa;
+        border: 1px solid #ddd;
+        background-color: #fff; }
+        /* line 742, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .button_area a.book_mark:hover {
+          color: #888;
+          border-color: #aaa; }
+      /* line 747, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.purchase {
+        color: #fff; }
+        /* line 749, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .button_area a.purchase:hover {
+          transition: all 0.3s; }
+      /* line 753, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.elementary_purchase {
+        background-color: #7d57fb; }
+      /* line 756, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.middle_purchase {
+        background-color: #46d39a; }
+      /* line 759, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.high_purchase {
+        background-color: #7d57fb; }
+        /* line 761, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .list_container .list .button_area a.high_purchase:hover {
+          background-color: #674ced; }
+      /* line 765, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area a.high_book_mark_on {
+        color: #7d57fb;
+        border-color: #7d57fb; }
+      /* line 769, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .list_container .list .button_area .clear {
+        color: #aaa;
+        cursor: default;
+        width: 120px;
+        text-align: center;
+        display: inline-block; }
+    /* line 777, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .list_container .list:hover {
+      background-color: #f3f3f3; }
+  /* line 785, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .list_container .complete .info .book_title a span.complete_icon {
+    color: #7d57fb;
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: 6px;
+    right: 2px; }
+
+/*--------- Detail페이지 ---------*/
+/* line 807, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.book_detail_top {
+  background-color: #2a3647;
+  padding: 60px 0; }
+  /* line 810, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .book_detail_top .inner {
+    width: 950px;
+    margin: 0 auto; }
+    /* line 813, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_top .inner .left {
+      display: inline-block;
+      vertical-align: middle;
+      width: 235px;
+      height: 335px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.08); }
+      /* line 821, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .left img {
+        width: 100%; }
+    /* line 826, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_top .inner .right {
+      width: 666px;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 40px 0 40px 40px; }
+      /* line 831, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .right .title {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 20px; }
+        /* line 836, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .title span.top_tag {
+          display: inline-block;
+          position: relative;
+          top: 3px;
+          margin-left: 5px; }
+      /* line 843, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .right .book_info {
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.8); }
+        /* line 846, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .book_info span.bar {
+          color: rgba(255, 255, 255, 0.3);
+          margin: 0 10px;
+          font-weight: 400; }
+          /* line 850, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .book_info span.bar img {
+            vertical-align: middle; }
+      /* line 855, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .right .level {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #fff;
+        padding: 50px 0 10px; }
+        /* line 860, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .level span.bar {
+          color: rgba(255, 255, 255, 0.3);
+          margin: 0 10px;
+          font-weight: 400;
+          vertical-align: top; }
+        /* line 866, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .level span.bold {
+          font-weight: 700; }
+        /* line 869, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .level span.star {
+          margin: 0 0 0 7px; }
+      /* line 873, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .right .item {
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 10px 0; }
+      /* line 878, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_top .inner .right .purchase {
+        padding-top: 40px; }
+        /* line 880, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .purchase h1 {
+          color: #fff;
+          font-size: 2rem;
+          font-family: 'Montserrat', sans-serif;
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: 10px; }
+        /* line 888, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+        .book_detail_top .inner .right .purchase .btn {
+          display: inline-block;
+          float: right; }
+          /* line 892, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .purchase .btn a {
+            text-decoration: none;
+            display: inline-block;
+            width: 130px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-left: 15px;
+            transition: all 0.2s; }
+          /* line 905, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .purchase .btn a.bookmark {
+            color: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.5); }
+            /* line 908, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+            .book_detail_top .inner .right .purchase .btn a.bookmark:hover {
+              color: rgba(255, 255, 255, 0.7);
+              border: 1px solid rgba(255, 255, 255, 0.7); }
+          /* line 913, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .purchase .btn a.puchase_btn {
+            background-color: #7d57fb;
+            color: #fff; }
+            /* line 916, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+            .book_detail_top .inner .right .purchase .btn a.puchase_btn:hover {
+              background-color: #674ced; }
+          /* line 920, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .purchase .btn a.portfolio_btn {
+            background-color: #7d57fb;
+            color: #fff;
+            width: 200px; }
+            /* line 924, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+            .book_detail_top .inner .right .purchase .btn a.portfolio_btn:hover {
+              background-color: #674ced; }
+          /* line 928, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+          .book_detail_top .inner .right .purchase .btn span.complete {
+            color: #aaa; }
+            /* line 930, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+            .book_detail_top .inner .right .purchase .btn span.complete img {
+              opacity: 0.6; }
+
+/* line 940, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+.book_detail_info {
+  padding: 10px 0 80px; }
+  /* line 942, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+  .book_detail_info .inner {
+    width: 950px;
+    margin: 0 auto; }
+    /* line 945, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_info .inner h2 {
+      font-size: 22px;
+      font-weight: 700;
+      padding: 60px 0 20px 0; }
+    /* line 950, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_info .inner h5.author {
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 10px 0; }
+    /* line 955, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_info .inner p {
+      font-size: 1rem;
+      line-height: 26px;
+      padding: 10px 0; }
+    /* line 960, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+    .book_detail_info .inner ul {
+      padding: 10px 20px 50px; }
+      /* line 962, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+      .book_detail_info .inner ul li {
+        list-style: disc;
+        font-size: 1rem;
+        padding: 4px 0;
+        line-height: 26px; }
+
+/* line 976, /Users/SONG/Desktop/Worspace/eduplane/publishing/css/style.scss */
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 23px;
+  background-color: #f1f1f1;
+  color: #666;
+  padding: 40px 0; }
+
+/*# sourceMappingURL=style.css.map */
