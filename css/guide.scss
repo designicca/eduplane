@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+
+$bg_color : #2a3647;
+$point_color: #7d57fb;
+
+body.info {
+    background-color: #f1f1f1;
+    border-top: 3px solid #111;
+    padding-bottom: 100px;
+}
+
+h1.main_title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+div {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 45px 35px;
+    h1 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 25px;
+        padding: 20px 0;
+    }
+    h3 {
+        font-size: 1.1rem;
+        line-height: 20px;
+        padding: 13px 0;
+        span {
+            display: block;
+            padding-left: 20px;
+            padding-top: 10px;
+            line-height: 22px;
+        }
+    }
+}
